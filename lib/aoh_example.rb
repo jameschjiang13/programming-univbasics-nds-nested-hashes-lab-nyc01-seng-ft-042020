@@ -1,5 +1,5 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
-
+require 'Pry'
 DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
 JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -14,6 +14,7 @@ def assembled_aoh
      {:name=>"Pat Monteseian", :occupation=>"Staff"},
      {:name=>"Kate Gompert", :occupation=>"None"},
      {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
+     binding.pry
 end
 
 def literal_aoh
