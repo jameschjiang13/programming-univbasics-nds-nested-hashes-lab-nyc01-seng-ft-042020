@@ -1,5 +1,6 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
 require 'pry'
+
 DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
 JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -14,9 +15,8 @@ def assembled_aoh
      {:name=>"Pat Monteseian", :occupation=>"Staff"},
      {:name=>"Kate Gompert", :occupation=>"None"},
      {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
-binding.pry
 end
-
+binding.pry
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
